@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #ebeaea;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(241, 173, 46);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 3px 3px 5px #ccc;
+}
+header h1 {
+  color: #fff;
+
+  margin-left: 20px;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+footer {
+  margin-top: 75vh;
+  text-align: center;
+  opacity: 0.5;
+}
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.delete{
+  background-color: #fff;
+  border: none;
+  color: #f5ba13;
+  margin-left: 80%;
+  cursor: pointer;
+}
